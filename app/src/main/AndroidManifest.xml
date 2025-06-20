@@ -16,19 +16,21 @@
         android:theme="@style/Theme.SadarApp"
         tools:targetApi="31">
         <activity
+<<<<<<< HEAD
             android:name=".DonorActivity"
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
             android:exported="false" />
         <activity
+=======
+>>>>>>> 55bc8d78fd718931ff8b6cf219001d895e642ade
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.SadarApp">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
