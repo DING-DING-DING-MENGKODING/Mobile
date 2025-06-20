@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.log.DetailPermohonanActivity">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/white"
+        android:src="@drawable/back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/poppins_semi_bold"
+        android:text="Detail Permohonan"
+        android:textColor="#101010"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="118dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/ambulans" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="177dp"
+        android:text="Accept"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="#17942C"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/tvNamaPemohon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="275dp"
+        android:layout_marginBottom="7dp"
+        android:text="Nama Pemohon"
+        style="@style/TvDetail"
+        app:layout_constraintBottom_toTopOf="@+id/edtNamaPemohon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/edtNamaPemohon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="21dp"
+        android:allowClickWhenDisabled="false"
+        android:background="@drawable/custom_input"
+        android:fontFamily="@font/poppins_regular"
+        android:paddingVertical="16dp"
+        android:paddingLeft="20dp"
+        android:text="Rezki Andika"
+        android:textColor="#363A33"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNamaPemohon" />
+
+    <TextView
+        android:id="@+id/tvNamaSupir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="355dp"
+        style="@style/TvDetail"
+        android:text="Supir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtNamaPemohon" />
+
+    <TextView
+        android:id="@+id/edtSupir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="21dp"
+        android:allowClickWhenDisabled="false"
+        android:background="@drawable/custom_input"
+        android:fontFamily="@font/poppins_regular"
+        android:paddingVertical="16dp"
+        android:paddingLeft="20dp"
+        android:text="Maxwell Daeng Kanang"
+        android:textColor="#363A33"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNamaSupir" />
+
+    <TextView
+        android:id="@+id/tvNomorHpSupir"
+        style="@style/TvDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="353dp"
+        android:text="Nomor Handphone Supir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtSupir" />
+
+    <TextView
+        android:id="@+id/edtNomorSupir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="21dp"
+        android:text="085756128504"
+        android:background="@drawable/custom_input"
+        android:fontFamily="@font/poppins_regular"
+        android:paddingVertical="16dp"
+        android:paddingLeft="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNomorHpSupir" />
+
+    <TextView
+        android:id="@+id/tvKeterangan"
+        style="@style/TvDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="337dp"
+        android:text="Keterangan"
+        app:layout_constraintBottom_toTopOf="@+id/edtKeterangan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtNomorSupir"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/edtKeterangan"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/custom_input"
+        android:fontFamily="@font/poppins_regular"
+        android:paddingVertical="16dp"
+        android:paddingLeft="20dp"
+        android:text="Kecelakaan di Tamalanrea Makassar kondisi korban sangat kritis"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
