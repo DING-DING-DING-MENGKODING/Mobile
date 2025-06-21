@@ -43,7 +43,7 @@
         <ImageView
             android:layout_width="16dp"
             android:layout_height="16dp"
-            android:src="@drawable/ic_google"
+            android:src="@drawable/ic_location"
             app:tint="#E3002B" />
 
         <TextView
