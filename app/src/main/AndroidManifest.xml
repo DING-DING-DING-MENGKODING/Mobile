@@ -16,6 +16,24 @@
         android:theme="@style/Theme.SadarApp"
         tools:targetApi="31">
         <activity
+            android:name=".ui.oksigen.OksigenDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.darah.DarahDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ambulans.PemesananAmbulansActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ambulans.AmbulansDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.oksigen.CariOksigenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ambulans.CariAmbulansActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.darah.CariKantongDarahActivity"
             android:exported="false" />
         <activity

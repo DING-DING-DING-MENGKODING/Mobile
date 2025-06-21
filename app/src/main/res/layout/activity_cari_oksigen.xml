@@ -6,7 +6,7 @@
     android:background="@color/white"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.darah.CariKantongDarahActivity">
+    tools:context=".ui.log.oksigen.CariOksigenActivity">
 
     <ImageButton
         android:id="@+id/BtnBack"
@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:fontFamily="@font/poppins_semi_bold"
-        android:text="Cari Kantong Darah"
+        android:text="Cari Oksigen"
         android:textColor="#101010"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -65,7 +65,7 @@
         android:layout_marginTop="6dp"
         android:layout_marginEnd="259dp"
         android:fontFamily="@font/poppins_medium"
-        android:text="Filter Golongan Darah"
+        android:text="Filter Kapasitas"
         android:textColor="#2E2B2B"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -73,7 +73,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
     <Spinner
-        android:id="@+id/spinnerGolonganDarah"
+        android:id="@+id/spinnerKapasitasOksigen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="126dp"
@@ -117,7 +117,7 @@
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinnerGolonganDarah" />
+        app:layout_constraintTop_toBottomOf="@+id/spinnerKapasitasOksigen" />
 
 
 

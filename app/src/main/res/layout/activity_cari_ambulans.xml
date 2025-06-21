@@ -6,7 +6,7 @@
     android:background="@color/white"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.darah.CariKantongDarahActivity">
+    tools:context=".ui.ambulans.CariAmbulansActivity">
 
     <ImageButton
         android:id="@+id/BtnBack"
@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:fontFamily="@font/poppins_semi_bold"
-        android:text="Cari Kantong Darah"
+        android:text="Cari Ambulans"
         android:textColor="#101010"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -65,29 +65,13 @@
         android:layout_marginTop="6dp"
         android:layout_marginEnd="259dp"
         android:fontFamily="@font/poppins_medium"
-        android:text="Filter Golongan Darah"
+        android:text="Filter Kapasitas (m3)"
         android:textColor="#2E2B2B"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
-    <Spinner
-        android:id="@+id/spinnerGolonganDarah"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="126dp"
-        android:layout_marginTop="45dp"
-        android:layout_marginEnd="20dp"
-        android:background="@drawable/spinner_item_background"
-        android:paddingLeft="12dp"
-        android:paddingTop="8dp"
-        android:paddingRight="8dp"
-        android:paddingBottom="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/textView8"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button"
@@ -106,18 +90,18 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerViewRS"
+        android:id="@+id/recyclerViewAmbulans"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="13dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="14dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
         android:clipToPadding="false"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinnerGolonganDarah" />
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
 
 

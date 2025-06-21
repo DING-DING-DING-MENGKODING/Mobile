@@ -19,7 +19,7 @@
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_marginEnd="12dp"
-            android:src="@drawable/ic_card_darah" />
+            android:src="@drawable/ic_oksigen_card" />
 
         <LinearLayout
             android:layout_width="0dp"
@@ -62,7 +62,7 @@
                 android:id="@+id/tvStokDarah"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Stok Darah : 33"
+                android:text="Stok : 33"
                 android:textColor="#E84242"
                 android:textSize="14sp"
                 android:layout_marginTop="4dp"
